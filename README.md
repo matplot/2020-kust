@@ -19,6 +19,7 @@
 * 廖雪峰 [Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
 *Q*: 什么是 `github`?
+
 *A*: [wiki](https://en.wikipedia.org/wiki/GitHub)上的解释是：
 GitHub是通过Git进行版本控制的软件源代码托管服务平台。
 根据在2009年的Git用户调查，GitHub是最流行的Git访问站点。截止到2015年，GitHub已经有超过两千八百万注册用户和5700万代码库。事实上已经成为了世界上最大的代码存放网站和开源社区。
@@ -50,6 +51,7 @@ GitHub是通过Git进行版本控制的软件源代码托管服务平台。
 
 ## build your own blog
 *Q*: 为什么要自建个人博客，`csdn` 它不好吗？
+
 *A*: 对自己的查漏补缺、积累经验，交友发展到自己的技术圈子。
 相比于 `csdn` 等等的博客平台，个人自建博客自主权比较高，而博客平台的话会有这样那样的限制。
 最为重要的是，个人博客记录自己了成长过程。想融入程序员的圈子至少得有自己的**明信片**，而个人的博客和github主页就是这样的证明。
@@ -84,12 +86,15 @@ GitHub是通过Git进行版本控制的软件源代码托管服务平台。
 
 ## Markdown
 *Q*: 什么是[Markdown](https://zh.wikipedia.org/zh-hans/Markdown)？
+
 *A*: Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
 
 *Q*: 为什么要使用`Markdown`?
+
 *A*: 由于其具有轻量化、易读易写特性，是大部分项目文档、个人博客甚至是小说的首选编辑"语言"。
 
 *Q*: `Markdown`语法的通用性？
+
 *A*:
 * 知乎
 * SourceForge
@@ -99,11 +104,13 @@ GitHub是通过Git进行版本控制的软件源代码托管服务平台。
 
 
 *Q*: 如何掌握？
+
 *A*:
 * [Markdown命令查询手册](http://liuxihao.com/Manual/Markdown命令查询手册/)
 * [Markdown 基本语法](http://younghz.github.io/Markdown/)
 
 *Q*: 在哪里写 `Markdown`（用什么软件编辑 `Markdown`）？
+
 *A*:
 1. 直接在上述的支持网页中评论使用即可。
 2. `vscode`中编辑`.md`文件，使用插件[Markdown Preview Enhanced
