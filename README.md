@@ -30,7 +30,7 @@ GitHub是通过Git进行版本控制的软件源代码托管服务平台。
 * [GitHub Learning Lab](https://lab.github.com/), `github` 的官方教程。
 
 建议的实践：
-完成注册 GitHub 之后，请学习并完成有关 Git/GitHub 的命令行教程。同时你也可以参考网络上各种优质的 Git/GitHub 学习资料，自学 Git 版本控制系统，自学有关如何在 GitHub 上进行协作的内容。
+> 完成注册 GitHub 之后，请学习并完成有关 Git/GitHub 的命令行教程。同时你也可以参考网络上各种优质的 Git/GitHub 学习资料，自学 Git 版本控制系统，自学有关如何在 GitHub 上进行协作的内容。
 
 ## escape GFW
 为什么要科学上网？
@@ -46,7 +46,7 @@ GitHub是通过Git进行版本控制的软件源代码托管服务平台。
 如果不想折腾，推荐租别人搭好的，若需要请私聊。
 
 建议的实践：
-能够成功访问到 `www.google.com` ，创建一个自己的谷歌账号。浏览只能在外网浏览的优秀社区如 `StackOverflow`。
+> 能够成功访问到 `www.google.com` ，创建一个自己的谷歌账号。浏览只能在外网浏览的优秀社区如 `StackOverflow`。
 
 ## build your own blog
 *Q*: 为什么要自建个人博客，`csdn` 它不好吗？
@@ -80,7 +80,7 @@ GitHub是通过Git进行版本控制的软件源代码托管服务平台。
 如果对上面给出的模板不满意，可以使用[jekyllthemes](http://jekyllthemes.org/)或者[github](https://github.com/search?q=Jekyll+Themes)搜索其他模板，
 
 建议的实践：
-搭建一个属于自己的博客，并且大方地向朋友展示！
+> 搭建一个属于自己的博客，并且大方地向朋友展示！
 
 ## Markdown
 *Q*: 什么是[Markdown](https://zh.wikipedia.org/zh-hans/Markdown)？
@@ -113,8 +113,8 @@ GitHub是通过Git进行版本控制的软件源代码托管服务平台。
 
 
 
-推荐的实践：
-写一些 `Markdown` ,如果已经完成了博客搭建，尝试用 `Markdown` 写点东西然后发布到博客上。
+建议的实践：
+> 写一些 `Markdown` ,如果已经完成了博客搭建，尝试用 `Markdown` 写点东西然后发布到博客上。
 
 ## other
 很多时候，在 Google 上查找了大量的资料，也查阅了 Github 上 issue 诸多问题，也无法得到有效的解决办法。此时就需要在某个社区/群聊/issue上提出新的问题。为了自己的问题有较大概率得到回复、为被提问者提供尽可能多的有效信息以及保持有效的沟通方式，就需要掌握提问的技巧，重视提问的技巧，往往能够得到其他人友好的帮助。
