@@ -22,6 +22,9 @@
 
 - [https://try.github.io/](https://try.github.io/)
 - 廖雪峰 [Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- (learngitbranching教程网站)[https://learngitbranching.js.org]
+- 书籍：Git团队协作
+- 书籍：GitHub入门与实践
 
 _Q_: 什么是 `github`?
 
