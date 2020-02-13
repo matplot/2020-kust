@@ -1,4 +1,4 @@
-# 2020 Kust
+# 2020-Kust-RE:从零开始的程序员生活
 
 受[NEUP-Net-Department 2018 Mengxin Plan](https://github.com/johncruyff14/mengxin-2018)启发。
 该 repository 用于帮助昆工学生掌握一些基础技能,整理了一些资料。
