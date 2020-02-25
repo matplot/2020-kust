@@ -2,7 +2,7 @@
 
 ~~首先女装，并且把照片发送到<oceanlvr@foxmail.com>...~~
 
-![](img\images.jfif)
+![say hi](img\images.jfif)
 
 
 
@@ -157,3 +157,10 @@ _A_:
 很多时候，在 Google 上查找了大量的资料，也查阅了 Github 上 issue 诸多问题，也无法得到有效的解决办法。此时就需要在某个社区/群聊/issue 上提出新的问题。为了自己的问题有较大概率得到回复、为被提问者提供尽可能多的有效信息以及保持有效的沟通方式，就需要掌握提问的技巧，重视提问的技巧，往往能够得到其他人友好的帮助。
 
 - [提问的艺术](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
+
+------------------------------------------
+
+## 完成列表
+
+* [RickyのBlog](https://adorabledevil.github.io/)
+* [oceanlvr](https://adameta.top/)
