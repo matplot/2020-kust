@@ -2,7 +2,7 @@
 
 ~~首先女装，并且把照片发送到<oceanlvr@foxmail.com>...~~
 
-![say hi](img\images.jfif)
+![say hi](img\images.jpg)
 
 
 
@@ -17,7 +17,7 @@
   - [build your own blog:发展自己的技术圈子](#build-your-own-blog)
   - [Markdown:从此写文档到上瘾](#markdown)
   - [other:一些其他基本准则](#other)
-
+  - [完成列表](#Finished-List)
 
 
 > 墙裂建议亲自实践其中内容，尤其是考虑发展自己的技术圈子这一项，自建博客是一个很好的办法。
@@ -160,7 +160,14 @@ _A_:
 
 ------------------------------------------
 
-## 完成列表
+## Finished List
+
+建议完成博客搭建之后把自己的链接贴到下面。并且把下列链接加入到自己的友情链接内。
+
+操作过程：fork 这个 repository 并且修改文件，并且把 merge request 发送给我。
+
+
+博客链接列表：
 
 * [RickyのBlog](https://adorabledevil.github.io/)
 * [oceanlvr](https://adameta.top/)
