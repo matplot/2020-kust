@@ -2,7 +2,7 @@
 
 ~~首先女装，并且把照片发送到<oceanlvr@foxmail.com>...~~
 
-![say hi](img\images.jpg)
+![images](https://gitee.com/adameta/img/raw/master/1582614157_20200225150226889_884.jpg)
 
 
 
