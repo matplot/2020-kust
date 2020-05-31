@@ -2,10 +2,6 @@
 
 ~~首先女装，并且把照片发送到<oceanlvr@foxmail.com>...~~
 
-![images](https://gitee.com/adameta/img/raw/master/1582614157_20200225150226889_884.jpg)
-
-
-
 受[NEUP-Net-Department 2018 Mengxin Plan](https://github.com/johncruyff14/mengxin-2018)启发。
 该 repository 用于帮助昆工学生掌握一些基础技能,整理了一些资料。
 可以初步学习到以下基本技能：
@@ -60,15 +56,7 @@ GitHub 是通过 Git 进行版本控制的软件源代码托管服务平台。
 > “You shouldn’t let a wall decide what you know.”
 
 如果想做程序员，至少得把这个技能点到够用，不会因为被限制，就视野狭隘，技术文档第一线的东西都应该到外网去找。
-首先了解下什么是[GFW](https://zh.wikipedia.org/wiki/防火长城)。以及一些基本的概念：[浅谈 vpn、vps、Proxy 以及 shadowsocks 之间的联系和区别](https://medium.com/@thomas_summon/浅谈vpn-vps-proxy以及shadowsocks之间的联系和区别-b0198f92db1b)，给出自建 VPS 的几个链接，同样的，若对给出内容不满意，务必自行搜索：
 
-- [使用酸酸乳方式](https://beiyuan.me/over-the-wall-2/)
-- [新一代科学上网利器：V2Ray 扫盲教程](http://blog.whiterabbitxyj.com/2018/08/31/V2Ray/)
-- [V2Ray 白话文教程](https://toutyrater.github.io/)
-
-如果不想折腾，推荐租别人搭好的，若需要请私聊。
-
-建议的实践：
 
 > 能够成功访问到 [https://www.google.com/](https://www.google.com/) ，创建一个自己的谷歌账号。浏览只能在外网浏览的优秀社区如 `StackOverflow`。
 
@@ -159,15 +147,3 @@ _A_:
 - [提问的艺术](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
 
 ------------------------------------------
-
-## Finished List
-
-建议完成博客搭建之后把自己的链接贴到下面。并且把下列链接加入到自己的友情链接内。
-
-操作过程：fork 这个 repository 并且修改文件，并且把 merge request 发送给我。
-
-
-博客链接列表：
-
-* [RickyのBlog](https://adorabledevil.github.io/)
-* [oceanlvr](https://adameta.top/)
