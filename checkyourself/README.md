@@ -32,12 +32,12 @@ JavaScript 是一个单线程模型，在同一个时刻只能处理一个，并
 
 ## 加入小组方法
 
-1. 首先 fork 这个 Repository
-2. git clone 到本地
+1. 首先 fork 本 Repository
+2. git clone 到本地 [成员列表](checkyourself\README.md\##成员列表)
 3. 在本页面成员列表里面
 4. 进入到 `checkyourself/group/<yourname>/` 目录下
 5. 创建 README.md 并且按照日期打卡完成打卡的任务填充
-6. 代码合并到这个分支
+6. 代码合并到 master
 
 ## 成员列表
 
