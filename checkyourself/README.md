@@ -13,7 +13,7 @@
 
 要求都发布到本 repo 下的 checkyourself/group/yourname/README.md 下。
 
-格式例如
+格式例如，具体看 checkyourself/group/oyx/README.md 
 
 - [x] 每周 1 篇技术博客: [Linux 虚拟机固定IP](https://adameta.top/archives/LinuxStaticIP.html)
 - [x] 10 个面试问题
@@ -33,8 +33,8 @@ JavaScript 是一个单线程模型，在同一个时刻只能处理一个，并
 ## 加入小组方法
 
 1. 首先 fork 本 Repository
-2. git clone 到本地 [成员列表](checkyourself\README.md\##成员列表)
-3. 在本页面成员列表里面
+2. git clone 到本地 
+3. 在本页面成员列表里面加入自己的名字
 4. 进入到 `checkyourself/group/<yourname>/` 目录下
 5. 创建 README.md 并且按照日期打卡完成打卡的任务填充
 6. 代码合并到 master
@@ -62,4 +62,4 @@ JavaScript 是一个单线程模型，在同一个时刻只能处理一个，并
 
 ## 改进和建议
 
-如果改进和建议，请直接在本页面修改。
+如果有改进和建议，请直接在本页面修改。
