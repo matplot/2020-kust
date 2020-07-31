@@ -11,7 +11,7 @@
 - [ ] 代码时间打卡
 
 
-要求都发布到本 repo 下的 checkyourself/group/<yourname>/README.md 下。
+要求都发布到本 repo 下的 checkyourself/group/yourname/README.md 下。
 
 格式例如
 
