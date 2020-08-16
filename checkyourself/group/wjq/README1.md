@@ -10,105 +10,96 @@ HTML5 不基于 SGML，因此不需要对 DTD 进行引用，但是需要 DOCTYP
 
 而 HTML4.01 基于 SGML ，所以需要对 DTD 进行引用，才能告知浏览器文档所使用的文档类型。
 
-2.`html`Label 的作用
+2.`html`你是如何理解语义化的？
 
-label 标签来定义表单控制间的关系，当用户选择该标签时，浏览器会自动将焦点转到和标签相关的表单控件上。
+语义化，顾名思义，就是你写的HTML结构，是用相对应的有一定语义的英文字母（标签）表示的，标记的，因为HTML本身就是标记语言。不仅对自己来说，容易阅读，书写。别人看你的代码和结构也容易理解，甚至对一
+些不是做网页开发的人来说，也容易阅读。那么，我们以后再开发的过程中，一定要注意了，尽量使用官方的有语义的标签，不要再使用一堆无意义的标签去堆你的结构。
 
-3.`css`选择符有哪些？那些属于可以继承？
+ 语义化，也无非就是自己在使用标签的时候多使用有英文语义的标签，比如h标签，在HTML中就是就是用来定义标题，还有p标签，英文是paragraph段落，table表格标签,等等。
 
-id选择器(#myid)
+3.`css` box-sizing属性
 
-类选择器(.myclassName)
+用来控制元素的盒子模型的解析模式，默认为content-box
 
-标签选择器(div,h1,p)
+context-box：W3C的标准盒子模型，设置元素的 height/width 属性指的是content部分的高/宽
 
-子代选择器(ul>li)
+border-box：IE传统盒子模型。设置元素的height/width属性指的是border + padding + content部分的高/宽
 
-后代选择器(li a)
+4.`css`优先级算法如何计算？
 
-通配符选择器(*)
+元素选择符： 1
 
-属性选择器(a[rel="external"])
+class选择符： 10
 
-伪类选择器(a:hover,li:nth-child)
+id选择符：100
 
-可继承的样式： font-size font-family color
+元素标签：1000
 
-不可继承的样式： border padding margin height width
+5. `css` CSS3新增伪类有那些?
 
-4.`css`flex(弹性盒布局模型)以及使用场景
+p:first-of-type 选择属于其父元素的首个元素
 
-一个用于页面布局的全新css3功能，flexbox可以把列表放在同一个方向(从上到下排列，从左到右)，并且列表能延伸到占用可用的空间，较为复杂的布局还可以嵌套一个伸缩容器(flex container)来实现。采用flex布局的元素，成为flex容器。常规布局是基于块和内联流方向，而flex布局是基于flex布局flex-flow流可以很方便的用来做居中，能对不同屏幕大小自适应，在布局上有了比以前更加灵活的空间
+p:last-of-type 选择属于其父元素的最后元素
 
-5. `css` 水平、垂直居中的写法
+p:only-of-type 选择属于其父元素唯一的元素
 
-水平居中
+p:only-child 选择属于其父元素的唯一子元素
 
-行内元素: text-align: center
+p:nth-child(2) 选择属于其父元素的第二个子元素
 
-块级元素: margin: 0 auto
+:enabled :disabled 表单控件的禁用状态。
 
-position:absolute +left:50%+ transform:translateX(-50%)
+:checked 单选框或复选框被选中。
 
-display:flex + justify-content: center
+6.`javascript` typeof 返回哪些数据类型？
+
+ 基础类型包括：Number、String、Boolean、Null、Undefined、Symbol（该类型位 ES2015 中新增类型）
+ 
+ 引用类型包括：Object typeof 运算符把类型信息以字符串形式返回，需要注意的是 typeof 返回的类型和 JavaScript 定义的类型有细微的差异。 typeof 返回七种可能的值：“number”、“string”、“boolean”、“object”、"symbol"、“function”和“undefined”。
+
+7. 例举至少 3 种强制类型转换和 2 种隐式类型转换
+
+强制类型转换： 明确调用内置函数，强制把一种类型的值转换为另一种类型。强制类型转换主要有：Boolean、Number、String、parseInt、parseFloat
+
+隐式类型转换： 在使用算术运算符时，运算符两边的数据类型可以是任意的，比如，一个字符串可以和数字相加。之所以不同的数据类型之间可以做运算，是因为 JavaScript 引擎在运算之前会悄悄的把他们进行了隐式类型转换。隐式类型转换主要有：+、–、==、!
+
+8.`javascript`事件流模型都有什么？
+
+事件流描述的是从页面中接收事件的顺序。 DOM 结构是树形结构，当页面中的某一个元素触发了某个一个事件，事件会从最顶层的 window 对象开始，向下传播到目标元素，途径的祖先节点都会触发对应的事件，如果当前节点的该事件绑定了事件处理函数的话，则会执行该函数当事件达到目标元素并执行绑定函数（如果有绑定的话）后，事件又会向上传播到 window 元素，途径的祖先节点都会触发对应的事件
+
+9.`javascript`BOM 对象有哪些，列举 window 对象？
+
+window 对象，是 JS 的最顶层对象，其他的 BOM 对象都是 window 对象的属性；
+
+document 对象，文档对象；
+
+location 对象，浏览器当前URL信息；
+
+navigator 对象，浏览器本身信息；
+
+screen 对象，客户端屏幕信息；
+
+history 对象，浏览器访问历史信息；
 
 
-垂直居中
+10.`javascript`请简述 AJAX 及基本步骤？
 
-设置line-height 等于height
+AJAX即异步 JavaScript 和 XML，是指一种创建交互式网页应用的网页开发技术。通过在后台与服务器进行少量数据交换，AJAX 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。
 
-position：absolute +top:50%+ transform:translateY(-50%)
+AJAX 基本步骤：
 
-display:flex + align-items: center
+初始化ajax对象
 
-display:table+display:table-cell + vertical-align: middle;
+连接地址，准备数据
 
-6.`javascript` 异步加载的方式
+发送请求
 
- 渲染引擎遇到 标签会停下来，等到执行完脚本，继续向下渲染
+接收数据（正在接收，尚未完成）
 
-defer 是“渲染完再执行”，async 是“下载完就执行”，defer 如果有多个脚本，会按照在页面中出现的顺序加载，多个async 脚本不能保证加载顺序
-
-加载 es6模块的时候设置 type=module，异步加载不会造成阻塞浏览器，页面渲染完再执行，可以同时加上async属性，异步执行脚本（利用顶层的this等于undefined这个语法点，可以侦测当前代码是否在 ES6 模块之中）
-
-7. 解释`JavaScript`中定时器？说明定时器的缺点？
-
-定时器用于在设定的时间执行一段代码，或者在给定的时间间隔内重复该代码。这通过
-
-使用函数setTimeout，setInterval和clearInterval来完成。
-
-setTimeout（function，time）用于启动在所述延迟之后调用特定功能的定时器。
-
-setInterval（function，time）用于在提到的延迟中重复执行给定的功能，只有在取消时才停止。
-
-clearInterval（id）指示定时器停止。
-
-缺点：定时器在一个线程内运行，因此事件可能需要排队等待执行。
-
-8.`javascript`的split() join() 的区别
-
-split()将字符串按照指定的字符分割成一个数组，并返回
-
-join()将数组用指定的字符连接成一个字符串，并返回
-
-9.`javascript`数组方法pop() push() unshift() shift()
-
-栈方法：
-push()尾部添加，返回 数组长度
-pop()尾部删除，返回 被删除的元素
-
-队列方法：
-unshift()头部添加 ，返回 数组长度
-shift()头部删除，返回被删除的元素
-
-10.`javascript`事件绑定和普通事件有什么区别
-
-普通事件：给html元素添加一个特定的属性（比如：onclick）
-
-事件绑定：js代码中通过标记(id tag class)获取元素，给元素添加特定的方法(比如onclick)
+接收数据完成
 
 - [x] 代码时间打卡
 
-![](https://raw.githubusercontent.com/matplot/code/master/%E5%9B%BE%E7%89%87/readme.png)
+![](https://raw.githubusercontent.com/matplot/code/master/%E5%9B%BE%E7%89%87/readme1.png)
 
 
